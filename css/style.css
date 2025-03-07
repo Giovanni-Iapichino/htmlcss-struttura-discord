@@ -37,4 +37,5 @@ ul {
 
 header {
   background-color: #add8e7;
+  min-height: 80px;
 }
