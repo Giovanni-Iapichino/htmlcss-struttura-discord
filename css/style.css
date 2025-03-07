@@ -21,6 +21,7 @@ a {
 ul {
   list-style: none;
 }
+
 /* UTILS */
 
 .container {
@@ -31,11 +32,41 @@ ul {
   padding-right: 10px;
 }
 
-.flex {
-  display: flex;
-}
+/* .debug * {
+  min-height: 100px;
+  padding: 5px;
+  background-color: #ff000022;
+  border: 2px dashed red;
+} */
 
+/* HEADER */
 header {
   background-color: #add8e7;
   min-height: 80px;
 }
+
+.container-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #daa51f;
+}
+
+div.logo {
+  display: flex;
+  align-items: center;
+}
+
+div.login {
+  display: flex;
+  align-items: center;
+}
+
+div.link {
+  display: flex;
+  align-items: center;
+}
+
+/* MAIN */
+
+/* FOOTER */
