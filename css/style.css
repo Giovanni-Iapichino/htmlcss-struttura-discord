@@ -40,31 +40,40 @@ ul {
 } */
 
 /* HEADER */
-header {
+header.header-top {
   background-color: #add8e7;
   min-height: 80px;
+  padding: 20px 0;
 }
 
-.container-header {
+.container-header-top {
   display: flex;
   justify-content: space-between;
-  align-items: center;
   background-color: #daa51f;
 }
 
-div.logo {
-  display: flex;
-  align-items: center;
+div.box-logo {
+  border: 2px dashed #000;
+  padding: 10px;
+  text-align: left;
+  width: 250px;
+  flex-grow: 1;
 }
 
-div.login {
-  display: flex;
-  align-items: center;
+div.box-login {
+  border: 2px dashed #000;
+  padding: 10px;
+  text-align: right;
+  width: 250px;
+  flex-grow: 1;
 }
 
-div.link {
-  display: flex;
-  align-items: center;
+div.box-link {
+  border: 2px dashed #000;
+  padding: 10px;
+  text-align: center;
+  width: 250px;
+  flex-grow: 1;
 }
 
 /* MAIN */
