@@ -124,4 +124,15 @@ section {
   border: 2px dashed #000;
 }
 
+.full-col {
+  background-color: #218b21;
+  flex-grow: 1;
+}
+
+.big-grey {
+  background-color: #d3d3d3;
+  height: 800px;
+  padding: 60px 0;
+}
+
 /* FOOTER */
