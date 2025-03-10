@@ -49,10 +49,13 @@ ul {
 }
 
 /* HEADER */
-header.header-top {
+.page-header {
   background-color: #add8e7;
-  min-height: 80px;
+}
+
+.header-top {
   padding: 20px 0;
+  background-color: #add8e7;
 }
 
 .container-header-top {
@@ -85,23 +88,21 @@ div.box-link {
   flex-grow: 1;
 }
 
-header.header-bottom {
+.header-bottom {
   background-color: #00018b;
-  height: 500px;
-  padding: 20px 0;
+  padding: 40px 0;
 }
 
 .container-header-bottom {
   display: flex;
   justify-content: center;
-  padding: 30px;
+  padding: 20px;
 }
 
-.box-card {
+.header-bottom .hero {
   border: 2px dashed #000;
-  width: 400px;
+  min-height: 400px;
   background-color: #ef82ed;
-  padding: 200px;
   flex-grow: 1;
 }
 
